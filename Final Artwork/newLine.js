@@ -4,7 +4,6 @@ weaves from 251107_circularweave.js
 */
 
 
-
 class LineSystem {
   constructor(weaves, numLines, dynamicRadius) {
     this.weaves = weaves;
@@ -21,7 +20,7 @@ class LineSystem {
   }
 
   update(numLines, dynamicRadius) {
-    // Rebuild only if number of lines changed
+    // Rebuild only if number of lines have changed
     if (numLines !== this.lines.length) {
       this.buildLines(numLines, dynamicRadius);
     }

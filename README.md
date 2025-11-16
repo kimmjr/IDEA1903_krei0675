@@ -9,11 +9,11 @@ I have created a piece that aims to simulate a sense of movement and rhythm foun
 
 The controls are located in the Artwork Controls panel on the side.
 
-Background Colour: Adjust the brightness and contrast of the underlying image.
-Background Circles Zoom: Change the spacing between circular elements in the flow field creating a zoom in and out.
-Outside Lines Movement: Alters the colur intensity of the lines and moves them from left to right.
-Outside Lines Zoom: Controls the size of the outside lines around the weaves.
-Weave Colour: Adjusts the color saturation of the circular weaves.
+- **Background Colour:** Adjust the brightness and contrast of the underlying image.
+- **Background Circles Zoom:** Change the spacing between circular elements in the flow field creating a zoom in and out.
+- **Outside Lines Movement:** Alters the colur intensity of the lines and moves them from left to right.
+- **Outside Lines Zoom:** Controls the size of the outside lines around the weaves.
+- **Weave Colour:** Adjusts the color saturation of the circular weaves.
 
 
 ### References & Inspiration

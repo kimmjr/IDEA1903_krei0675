@@ -19,13 +19,10 @@ function setup() {
   noFill();
   img.resize(width, height);
 
-  // Sidebar rectangle (visual only)
   drawSidebar();
 
-  // Call slider setup from sliders.js
   createSliders();
 
-  // Initialize weave positions
   drawWeaves();
 
   // Initialise line system with slider values
@@ -45,20 +42,19 @@ function draw() {
   // Update variables from sliders
   spacing = spacingSlider.value();
 
-  // Check if number of lines changed
+  // Check if number of lines have changed
   if (numLinesSlider.value() !== lastNumLines) {
     lineSystem.update(numLinesSlider.value(), radiusSlider.value());
     lastNumLines = numLinesSlider.value();
     lastRadius = radiusSlider.value();
   } else {
-    // Update radius dynamically without rebuilding
+
+    // Update radius dynamically
     lineSystem.updateRadius(radiusSlider.value());
   }
 
-  // Draw flow field directly on canvas
   drawFlowField();
 
-  // Render lines directly on canvas
   lineSystem.render();
 
   // Draw weaves on top
