@@ -16,7 +16,7 @@ Outside Lines Zoom: Controls the size of the outside lines around the weaves.
 Weave Colour: Adjusts the color saturation of the circular weaves.
 
 
-# References & Inspiration
+### References & Inspiration
 
 https://www.youtube.com/watch?v=onemNhgAVg8 by The Coding Train
 https://editor.p5js.org/StevesMakerspace/sketches/dZTck1-WU
